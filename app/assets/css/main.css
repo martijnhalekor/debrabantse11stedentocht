@@ -1,0 +1,70 @@
+:root {
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior: contain;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: white;
+  background-color: black;
+  font-family: 'Moderniz', sans-serif;
+  text-align: center;
+  line-height: 1.25;
+  font-size: 1rem;
+}
+
+img,
+video,
+embed,
+svg {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+a {
+  color: currentColor;
+  cursor: pointer;
+  outline: 1px solid transparent;
+
+  &:focus-visible {
+    outline-offset: 0.25rem;
+    outline-color: white;
+  }
+}
+
+[role='list'] {
+  list-style: none;
+  margin-left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.visuallyhidden {
+  position: absolute;
+  z-index: -1;
+  width: 0;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
