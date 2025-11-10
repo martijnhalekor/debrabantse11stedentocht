@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   },
 
   site: {
-    name: 'De Brabantse 11 Stedentocht',
+    name: 'De Brabantse 11 Stedentocht.',
     url: 'https://www.debrabantse11stedentocht.nl',
   },
 
@@ -42,5 +42,5 @@ export default defineNuxtConfig({
 
   pages: true,
 
-  compatibilityDate: '2025-11-09',
+  compatibilityDate: '2025-11-10',
 });

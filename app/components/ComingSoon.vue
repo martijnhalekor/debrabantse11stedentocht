@@ -1,8 +1,7 @@
-<script lang="ts" setup></script>
-
 <template>
   <div class="coming-soon-page">
-    <h1 class="visuallyhidden">De Brabantse 11 Stedentocht</h1>
+    <h1 class="visuallyhidden">De Brabantse 11 Stedentocht.</h1>
+
     <p lang="en">Coming Soon</p>
 
     <img src="/beeldmerk-wit.svg" alt="" class="logo" />
@@ -25,7 +24,7 @@
   p {
     font-size: 2.5rem;
     width: min-content;
-    margin-top: auto;
+    margin-block-start: auto;
   }
 
   .logo {
