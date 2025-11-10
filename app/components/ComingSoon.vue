@@ -10,6 +10,8 @@
 
 <style>
 .coming-soon-page {
+  -webkit-user-select: none;
+  user-select: none;
   display: grid;
   place-items: center;
   gap: 2rem;

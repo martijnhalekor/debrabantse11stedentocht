@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 const title = 'De Brabantse 11 Stedentocht.';
-const description =
-  'Acht Tilburgse vaders lopen 200 kilometer voor kinderen in kwetsbare situaties.';
+const description = '8 vaders, 11 steden, 1 doel. Coming soon!';
 const image = 'https://www.debrabantse11stedentocht.nl/background.jpg';
 
 useSeoMeta({
